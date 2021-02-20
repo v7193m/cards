@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lobster Two", cursive;
+}
+
+body {
+  background-color: rgb(235, 233, 213);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vw;
+}
+
+.card {
+  width: 20%;
+  border-radius: 30px;
+  background-color: rgb(64, 177, 171);
+  margin: 0 2vw;
+  text-align: center;
+  min-width: 170px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.title {
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.title-name {
+  margin: 20px 0;
+}
+
+.qoute {
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.qoute > * {
+  margin: 10px 0;
+}
+
+svg {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+
+.svg-qoute {
+  color: rgb(64, 177, 171);
+}
+
+.svg-star {
+  color: rgb(235, 233, 213);
+}
+
+.mike-star,
+.carlo-star:nth-child(1),
+.carlo-star:nth-child(2),
+.jason-star:nth-child(1),
+.jason-star:nth-child(2),
+.jason-star:nth-child(3) {
+  color: rgb(174, 184, 46);
+}
+
+@media (max-width: 768px) {
+  .container {
+    display: block;
+  }
+  .card {
+    width: 50%;
+    max-width: 250px;
+    margin: 20px auto;
+  }
+}
