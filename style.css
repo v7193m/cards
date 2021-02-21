@@ -50,17 +50,17 @@ img {
   margin: 10px 0;
 }
 
-svg {
+i {
   display: inline-block;
   width: 30px;
   height: 30px;
 }
 
-.svg-qoute {
+.icon-qoute {
   color: rgb(64, 177, 171);
 }
 
-.svg-star {
+.icon-star {
   color: rgb(235, 233, 213);
 }
 
